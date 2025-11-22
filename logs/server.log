@@ -1,12 +1,15 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [152] using StatReload
-INFO:     Started server process [154]
+INFO:     Started reloader process [200] using StatReload
+INFO:     Started server process [202]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:40860 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:48300 - "GET /api/languages HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48308 - "GET /api/languages HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48296 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48306 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48296 - "GET /api/contexts?language=de HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56100 - "GET /api/languages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56108 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:56120 - "GET /api/languages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56092 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56114 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54500 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54510 - "GET /api/languages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54542 - "GET /api/languages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54526 - "GET /api/contexts?language=en HTTP/1.1" 200 OK
